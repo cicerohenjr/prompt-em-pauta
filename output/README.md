@@ -4,7 +4,7 @@
 **Duração do MP3 gerado localmente:** aproximadamente 4 minutos e 43 segundos  
 **Formato:** MP3, mono, 44,1 kHz, 160 kbps  
 **Voz:** eSpeak `pt-br` (voz sintética básica)  
-**Status:** áudio refeito em uma única síntese contínua; escuta humana final e envio ao GitHub ainda pendentes.
+**Status:** este arquivo continua sendo a versão eSpeak. O projeto agora contém um script para gerar uma versão candidata com ElevenLabs em `episodio-01-prompt-em-pauta-elevenlabs.mp3`, mas a geração neural ainda depende das credenciais da conta e do ID da voz. Escuta humana final e envio ao GitHub continuam pendentes.
 
 ## Como o áudio foi produzido
 
@@ -20,6 +20,10 @@ A narração foi sintetizada em uma única passagem com eSpeak `pt-br`, velocida
 - [x] O nível de áudio foi analisado automaticamente; o pico medido ficou em aproximadamente -2,4 dBFS.
 - [ ] Ouvir o MP3 integralmente em um reprodutor para verificar pronúncia, ritmo e possíveis artefatos.
 - [ ] Adicionar o arquivo `output/episodio-01-prompt-em-pauta.mp3` ao GitHub.
+
+## Próxima versão com ElevenLabs
+
+Consulte [`../docs/elevenlabs.md`](../docs/elevenlabs.md) para configurar e gerar a narração com The Professional Instructor em português brasileiro. A versão candidata é gravada com outro nome para preservar o MP3 eSpeak até que a nova voz seja ouvida e aprovada.
 
 ## Observação importante
 
