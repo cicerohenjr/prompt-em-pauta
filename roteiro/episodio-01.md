@@ -3,7 +3,7 @@
 **Série:** Prompt em Pauta  
 **Público-alvo:** estudantes e iniciantes em TI  
 **Idioma:** português brasileiro  
-**Duração do MP3 gerado:** aproximadamente 4 minutos e 45 segundos  
+**Duração do MP3 gerado:** aproximadamente 4 minutos e 43 segundos  
 **Status:** narração sintética gerada; escuta humana final recomendada antes da entrega.
 
 ## Abertura
@@ -54,4 +54,4 @@ Até o próximo episódio!
 
 ## Nota sobre a narração
 
-O texto de narração foi preparado com apoio de IA e adaptado para síntese de voz. O MP3 disponível no pacote de entrega foi sintetizado com eSpeak, voz `pt-br`, não com ElevenLabs. A pronúncia do comando `ls` foi ajustada no áudio para “éle ésse”. Ouça o arquivo integralmente antes de enviar.
+O texto de narração foi preparado com apoio de IA e adaptado para síntese de voz. O MP3 disponível no pacote de entrega foi sintetizado com eSpeak, voz `pt-br`, não com ElevenLabs. A versão atual foi gerada em uma única passagem contínua, com velocidade 135 e tratamento leve para reduzir emendas e saturação. A pronúncia do comando `ls` foi ajustada no áudio para “éle ésse”. A voz continua básica e robótica; ouça o arquivo integralmente antes de enviar.
