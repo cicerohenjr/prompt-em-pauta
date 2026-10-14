@@ -39,8 +39,8 @@ O episódio mostra como formular prompts úteis para estudar tecnologia, conferi
 - [x] Duração, canais, taxa de amostragem, bitrate e loudness conferidos.
 - [x] MP3 enviado ao repositório público e link de acesso incluído neste README.
 - [x] Documentação do projeto atualizada.
-- [ ] Conferir a pronúncia dos termos técnicos no áudio final.
-- [ ] Enviar o link do repositório no campo de entrega da DIO e confirmar o envio.
+- [x] Conferir a pronúncia dos termos técnicos no áudio final.
+- [x] Enviar o link do repositório no campo de entrega da DIO e confirmar o envio.
 
 ## Transparência sobre a voz
 
