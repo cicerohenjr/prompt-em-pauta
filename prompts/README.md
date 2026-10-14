@@ -20,11 +20,15 @@ Este arquivo reúne modelos e decisões do processo. Um modelo de prompt não de
 
 **Situação:** modelo de revisão.
 
-## 4. Preparação de uma voz mais natural
+## 4. Preparação da voz ElevenLabs — The Professional Instructor
 
-Este prompt é para uma ferramenta de síntese de voz que aceite instruções de estilo. **Ele não foi usado na geração do MP3 atual**, pois o áudio foi sintetizado localmente com eSpeak.
+**Estilo desejado:** narração em português brasileiro, clara, natural, direta, acolhedora e profissional; ritmo conversacional moderado, dicção nítida e pausas naturais. Preservar exatamente o texto de `../roteiro/narracao-utilizada.txt`, sem acrescentar, remover ou inventar informações.
 
-> Narre o roteiro aprovado em português brasileiro, com voz clara, natural e acolhedora, ritmo moderado e dicção nítida. Use tom educativo e conversacional, adequado a estudantes e iniciantes em TI. Faça pausas curtas entre os blocos e pausas naturais após perguntas e exemplos. Pronuncie os termos técnicos com clareza. Não acrescente, remova ou invente informações. Preserve o texto do roteiro e evite entonação publicitária exagerada.
+**Voz selecionada para teste:** The Professional Instructor, na biblioteca de vozes diretas da ElevenLabs. A página permite selecionar Portuguese (Brazil); como a descrição da voz menciona sotaque americano, é importante ouvir uma amostra em português antes de aprovar o episódio completo.
+
+**Situação:** o texto e o script de integração estão preparados, mas a voz neural ainda não foi gerada. O MP3 existente continua sendo eSpeak. Consulte [`docs/elevenlabs.md`](../docs/elevenlabs.md) para gerar uma amostra pela interface web ou pela API.
+
+> Narre o roteiro aprovado em português brasileiro com voz clara, natural, acolhedora e profissional. Mantenha um tom instrutivo e conversacional, com articulação precisa, ritmo moderado e pausas curtas entre as ideias. Dê ênfase discreta às perguntas e aos exemplos. Evite entonação publicitária, dramatização e pressa. Pronuncie termos técnicos com clareza. Não altere o texto aprovado.
 
 ## 5. Capa — Nano Banana
 
