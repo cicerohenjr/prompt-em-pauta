@@ -33,10 +33,12 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 
 ### Etapa C — Capa
 
-1. Gerar uma capa coerente com a identidade do podcast.
+1. Gerar uma proposta visual com o Nano Banana.
 2. Conferir o título, a legibilidade em tamanho pequeno e a ausência de marcas-d'água.
-3. Salvar a versão final em capa/capa-prompt-em-pauta.png.
-4. Atualizar o registro com a ferramenta utilizada e eventuais ajustes.
+3. Remover a moldura externa da versão raster e manter uma composição quadrada.
+4. Adicionar a adaptação vetorial em capa/capa-prompt-em-pauta.svg.
+5. Se a entrega exigir especificamente PNG/JPG, adicionar também a versão raster final à pasta capa/.
+6. Registrar as ferramentas e os ajustes realizados em docs/registro-de-producao.md.
 
 ### Etapa D — Narração e edição
 
@@ -77,11 +79,13 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 - O título está escrito corretamente.
 - O contraste e a composição funcionam em tamanho pequeno.
 - Não há marcas-d'água ou elementos visuais que induzam a erro.
+- O formato enviado corresponde ao que a plataforma de entrega solicita.
 
 ## 5. Organização dos arquivos
 
 - prompts/README.md — modelos de prompts e critérios de avaliação.
 - roteiro/episodio-01.md — roteiro narrado.
+- capa/capa-prompt-em-pauta.svg — adaptação vetorial da capa.
 - capa/README.md — orientações e destino da capa final.
 - output/README.md — orientações e destino do áudio final.
 - docs/registro-de-producao.md — ferramentas e etapas efetivamente realizadas.
@@ -89,4 +93,4 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 
 ## 6. Observação de transparência
 
-A estrutura e o roteiro são materiais de preparação. A capa final e o áudio final só devem ser marcados como concluídos depois de produzidos, revisados e adicionados ao repositório.
+A estrutura e o roteiro são materiais de preparação. A capa vetorial SVG está no repositório. A versão raster PNG recortada está preparada separadamente e só deve ser marcada como enviada ao GitHub depois de adicionada. O áudio final só deve ser marcado como concluído depois de produzido, revisado e adicionado.
