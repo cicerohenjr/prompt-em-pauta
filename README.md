@@ -11,6 +11,8 @@ Podcast educativo sobre inteligência artificial generativa aplicada aos estudos
 **Formato:** podcast narrado em português brasileiro.  
 **Duração planejada:** 3 a 5 minutos.
 
+![Capa vetorial do podcast Prompt em Pauta](capa/capa-prompt-em-pauta.svg)
+
 O episódio apresenta formas práticas de usar a IA como apoio ao estudo, explica como escrever prompts mais úteis e reforça a importância de conferir informações e praticar por conta própria.
 
 ## 🎯 Objetivos
