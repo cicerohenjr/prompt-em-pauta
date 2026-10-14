@@ -1,42 +1,28 @@
 # Checklist de entrega — DIO
 
-Use esta lista para verificar o projeto antes de enviar o link do repositório. Os itens devem refletir o estado real dos arquivos.
+## Materiais
 
-## Repositório
+- [x] Nome, tema e público definidos.
+- [x] Roteiro organizado.
+- [x] Modelos de prompts e transparência documentados.
+- [x] MP3 gerado e exportado localmente com o nome `episodio-01-prompt-em-pauta.mp3`.
+- [x] Duração, codec, bitrate, taxa de amostragem, canais e nível de pico conferidos automaticamente.
+- [ ] Ouvir o MP3 integralmente e confirmar pronúncia, ritmo e cortes.
+- [ ] Se a qualidade da voz não for suficiente, gerar uma versão mais natural e substituir o MP3.
+- [ ] Adicionar o MP3 ao repositório GitHub.
+- [ ] Adicionar a capa PNG ao repositório, se desejado ou solicitado.
 
-- [x] Repositório público criado.
-- [x] README atualizado com apresentação e status do projeto.
-- [x] Estrutura de pastas e documentação inicial adicionadas.
-- [ ] Confirmar que o repositório abre publicamente e que todos os links funcionam.
+## GitHub
 
-## Materiais do episódio
-
-- [x] Tema, público-alvo e duração planejada definidos.
-- [x] Primeira versão do roteiro adicionada a `roteiro/episodio-01.md`.
-- [x] Modelos de prompts documentados em `prompts/README.md`.
-- [ ] Conferir e registrar os prompts realmente utilizados e suas adaptações.
-- [ ] Revisar o roteiro após leitura em voz alta.
-- [ ] Conferir as informações técnicas antes da gravação.
-- [x] Capa vetorial SVG adicionada a `capa/capa-prompt-em-pauta.svg`.
-- [ ] Se a entrega exigir PNG/JPG, adicionar também a versão raster recortada à pasta `capa/`.
-- [ ] Gerar ou gravar a narração do episódio.
-- [ ] Editar e exportar o áudio final em MP3.
-- [ ] Salvar o arquivo em `output/episodio-01-prompt-em-pauta.mp3`.
-- [ ] Ouvir o MP3 exportado do início ao fim e corrigir eventuais problemas.
-- [ ] Atualizar `docs/registro-de-producao.md` com as ferramentas e etapas efetivamente utilizadas.
-
-## Revisão final
-
-- [ ] Verificar grafia do título e consistência do nome do podcast.
-- [ ] Confirmar que o áudio está audível, completo e sem cortes inesperados.
-- [ ] Confirmar que a capa está legível e sem marcas-d'água.
-- [ ] Confirmar que o README indica corretamente o status de cada entrega.
-- [ ] Conferir a árvore de arquivos e abrir cada link importante.
+- [x] Repositório público criado e documentação inicial disponível.
+- [ ] Conferir o README e os links públicos após adicionar os arquivos binários.
+- [ ] Confirmar que o MP3 pode ser aberto ou baixado no GitHub.
 
 ## Entrega
 
-- [ ] Copiar o endereço do repositório: https://github.com/cicerohenjr/prompt-em-pauta
-- [ ] Colar o link no campo de entrega do desafio na plataforma DIO.
-- [ ] Conferir a confirmação de envio na plataforma.
+- [ ] Enviar o link do repositório no campo de entrega do desafio na DIO.
+- [ ] Conferir a confirmação de envio.
 
-**Importante:** a orientação do material da DIO é manter os prompts utilizados e colocar na pasta `output/` o áudio do próprio podcast. A publicação em plataformas externas é opcional. O projeto ainda não está pronto para a entrega final enquanto o áudio não for produzido, conferido e adicionado ao repositório.
+## Importante
+
+O material da DIO orienta a manter os prompts usados, colocar o áudio do próprio podcast na pasta `output/` e entregar o link do GitHub. A publicação em plataformas externas é opcional. O pacote de entrega contém o MP3, mas a escuta humana final e o upload dos arquivos binários para o repositório ainda são necessários antes de marcar a entrega como concluída.
