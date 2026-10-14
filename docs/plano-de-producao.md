@@ -1,53 +1,35 @@
 # Plano de produção — Prompt em Pauta
 
-## 1. Escopo
+## Definição editorial
 
-Produzir um episódio introdutório de podcast sobre o uso responsável de IA generativa no estudo de tecnologia, para o desafio “Criando um Podcast com IAs Generativas”, da DIO.
+- Episódio: 01.
+- Tema: como usar a IA generativa para estudar tecnologia com mais eficiência.
+- Público: estudantes e iniciantes em TI.
+- Idioma: português brasileiro.
+- Duração-alvo: 3 a 5 minutos.
+- Mensagem central: prompts claros ajudam a obter apoio mais útil, mas respostas da IA precisam de verificação e prática humana.
 
-## 2. Definição editorial
+## Etapas e estado atual
 
-- **Série:** Prompt em Pauta
-- **Episódio:** 01
-- **Tema:** Como usar a IA generativa para estudar tecnologia com mais eficiência
-- **Público:** estudantes e pessoas iniciantes em TI
-- **Idioma:** português brasileiro
-- **Duração-alvo:** 3 a 5 minutos
-- **Tom:** didático, respeitoso, acessível e prático
-- **Mensagem central:** prompts claros ajudam a obter apoio mais útil, mas respostas da IA precisam de verificação e prática humana.
+1. Roteiro: organizado; roteiro e texto da narração incluídos.
+2. Capa: PNG incluída.
+3. Narração: gerada no ElevenLabs Studio com Davi Andrei, modelo Eleven v4.
+4. Pós-processamento: normalização com FFmpeg para alvo de −19 LUFS e pico verdadeiro alvo de −1,5 dBTP; metadados atualizados.
+5. Verificação técnica: aproximadamente 3:25, mono, 44,1 kHz e 192 kbps.
+6. Revisão auditiva: arquivo percorrido em segmentos; não foram identificados cortes abruptos evidentes. A confirmação da pronúncia pelo autor é recomendada.
+7. Pacote: MP3, capa, roteiro, prompts e documentação organizados no ZIP.
+8. Publicação: adicionar o MP3 binário ao repositório GitHub e enviar o link do repositório à DIO.
 
-## 3. Etapas de produção e estado
+## Critérios de qualidade
 
-1. **Planejamento e roteiro:** primeira versão concluída; revisar antes de entregar.
-2. **Capa:** SVG está no repositório. O PNG de 1024 × 1024 está no pacote local e pode ser enviado ao GitHub.
-3. **Narração atual:** MP3 gerado localmente com eSpeak `pt-br`, em uma única passagem contínua.
-4. **Preparação ElevenLabs:** script e guia criados para usar The Professional Instructor com texto em português brasileiro; a geração ainda depende de credenciais e do ID da voz.
-5. **Pós-processamento atual:** filtro leve de frequências e normalização; exportação em MP3 mono, 44,1 kHz/160 kbps.
-6. **Verificação técnica:** codec, duração, taxa de amostragem, canais, bitrate e nível de pico conferidos automaticamente para o MP3 atual.
-7. **Verificação humana:** ouvir o MP3 completo e, após a geração neural, comparar pronúncia, ritmo e artefatos.
-8. **Publicação e entrega:** aprovar a narração, adicionar MP3 e PNG ao GitHub, verificar links e enviar o link do repositório à DIO.
+- O episódio corresponde ao título e ao público.
+- O exemplo de prompt é claro.
+- A fala é compreensível e sem clipping.
+- A duração está dentro da meta de 3 a 5 minutos.
+- O arquivo exportado é conferido após o processamento.
 
-## 4. Critérios de qualidade
+## Transparência
 
-- O episódio responde ao tema anunciado no título.
-- O exemplo de prompt é concreto e compreensível.
-- O roteiro não promete resultados garantidos nem apresenta a IA como infalível.
-- A fala é compreensível e o volume é consistente.
-- Não há cortes abruptos, trechos duplicados ou ruídos que prejudiquem a compreensão.
-- A duração final fica dentro da meta ou qualquer desvio é intencional.
-- O arquivo exportado é ouvido integralmente antes de publicar.
+A versão documentada usa Davi Andrei + Eleven v4. O planejamento inicial mencionava The Professional Instructor, mas essa não é a voz presente no arquivo exportado.
 
-## 5. Organização dos arquivos
-
-- `prompts/README.md` — modelos de prompts e transparência.
-- `roteiro/episodio-01.md` — roteiro e nota sobre a narração.
-- `capa/capa-prompt-em-pauta.svg` — capa vetorial.
-- `capa/README.md` — orientações para a capa.
-- `output/README.md` — orientação e estado do áudio.
-- `docs/elevenlabs.md` — instruções para gerar a voz neural.
-- `scripts/generate_audio_elevenlabs.py` — script de geração pela API.
-- `docs/registro-de-producao.md` — ferramentas e etapas realmente executadas.
-- `docs/checklist-entrega.md` — verificação final.
-
-## 6. Transparência
-
-O MP3 atual ainda usa eSpeak, uma voz sintética básica. O projeto está preparado para gerar uma candidata com ElevenLabs, mas não se deve dizer que a voz neural foi usada antes de a geração ser concluída e a nova faixa ser conferida. Consulte `docs/elevenlabs.md` para as instruções.
+Atribuição: ElevenLabs — https://elevenlabs.io.
