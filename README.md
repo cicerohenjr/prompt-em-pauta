@@ -21,6 +21,7 @@ O episódio apresenta formas práticas de usar a IA como apoio ao estudo, explic
 - [Checklist de entrega](docs/checklist-entrega.md)
 - [Orientações da capa](capa/README.md)
 - [Orientações do áudio final](output/README.md)
+- [Configuração da nova voz ElevenLabs](docs/elevenlabs.md)
 
 ## Status de entrega
 
@@ -30,14 +31,15 @@ O episódio apresenta formas práticas de usar a IA como apoio ao estudo, explic
 - [x] Capa vetorial SVG no repositório.
 - [x] MP3 refeito em uma única síntese contínua e conferido tecnicamente (aprox. 4:43; mono, 44,1 kHz, 160 kbps).
 - [ ] Ouvir o MP3 integralmente para conferir pronúncia, ritmo e eventuais artefatos.
-- [ ] Se a voz eSpeak continuar difícil de entender, gerar uma versão com TTS neural mais natural.
+- [x] Preparar o projeto para gerar uma versão com ElevenLabs usando The Professional Instructor em português brasileiro.
+- [ ] Gerar e ouvir a versão neural; a execução depende de configurar a chave de API e o ID da voz.
 - [ ] Adicionar o MP3 `output/episodio-01-prompt-em-pauta.mp3` ao GitHub.
 - [ ] Adicionar a capa PNG a `capa/`, se desejado ou solicitado.
 - [ ] Conferir links e enviar o link do repositório na plataforma DIO.
 
 ## Transparência sobre a voz
 
-A versão atual usa **eSpeak, voz `pt-br`**, velocidade 135 e uma única síntese contínua, com tratamento leve para reduzir emendas e saturação. O MP3 é mono, 44,1 kHz e 160 kbps, mas a voz continua básica e pode soar robótica — não equivale à voz neural de um leitor moderno de navegador. Não foi utilizado ElevenLabs. O MP3 e a capa PNG estão no pacote de entrega, mas os arquivos binários ainda precisam ser enviados ao GitHub. A escuta humana integral é necessária antes da entrega.
+A versão de áudio atualmente incluída continua usando **eSpeak, voz `pt-br`**; ela não foi gerada pelo ElevenLabs e ainda pode soar robótica. O projeto agora inclui um guia e um script para gerar uma versão candidata com **The Professional Instructor**, usando o modelo Eleven Multilingual v2 e o roteiro aprovado. A geração neural ainda está pendente de credenciais da conta e do ID da voz; o script não substitui automaticamente o MP3 atual. O MP3 e a capa PNG estão no pacote de entrega, mas os arquivos binários ainda precisam ser enviados ao GitHub. A escuta humana integral é necessária antes da entrega.
 
 ## Uso responsável da IA
 
