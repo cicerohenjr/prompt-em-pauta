@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt em Pauta</title>
+  <desc id="desc">Capa de podcast com título branco e ciano, microfone central, ondas sonoras e circuitos digitais em fundo azul-marinho.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06142f"/>
+      <stop offset=".55" stop-color="#071b3d"/>
+      <stop offset="1" stop-color="#101039"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#59dff7"/>
+      <stop offset=".48" stop-color="#a0f5ff"/>
+      <stop offset="1" stop-color="#8c5de8"/>
+    </linearGradient>
+    <linearGradient id="micBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e345b"/>
+      <stop offset=".28" stop-color="#39cde9"/>
+      <stop offset=".55" stop-color="#0a2850"/>
+      <stop offset=".8" stop-color="#9c54d9"/>
+      <stop offset="1" stop-color="#243d70"/>
+    </linearGradient>
+    <linearGradient id="micHead" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#183c6c"/>
+      <stop offset=".55" stop-color="#06132c"/>
+      <stop offset="1" stop-color="#44266f"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#20d7ff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#20d7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grille" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.25" fill="#7feeff" opacity=".75"/>
+      <circle cx="6" cy="6" r="1.25" fill="#ad82ff" opacity=".6"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <ellipse cx="512" cy="716" rx="380" ry="220" fill="url(#glow)"/>
+  <g fill="none" stroke="#2a75a9" stroke-width="1.6" opacity=".62">
+    <path d="M0 54 L42 98 L42 148 L96 178 L96 224 L155 250"/>
+    <path d="M0 248 L52 215 L88 248 L88 298 L146 328"/>
+    <path d="M0 840 L68 884 L68 925 L132 964 L132 1024"/>
+    <path d="M1024 146 L972 178 L972 224 L916 250 L916 292 L860 325"/>
+    <path d="M1024 302 L975 334 L935 316 L935 370 L884 400"/>
+    <path d="M1024 818 L966 852 L966 903 L900 938 L900 984 L840 1024"/>
+    <path d="M40 98 L96 178 L42 248 M96 178 L155 150 L204 175"/>
+    <path d="M972 178 L916 250 L860 325 M916 250 L855 236 L820 280"/>
+    <path d="M68 884 L132 964 L188 934 M132 964 L185 1002"/>
+    <path d="M966 852 L900 938 L844 914 M900 938 L845 982"/>
+  </g>
+  <g fill="#55dfff" opacity=".65">
+    <circle cx="42" cy="98" r="4"/><circle cx="96" cy="178" r="4"/><circle cx="155" cy="150" r="3"/>
+    <circle cx="52" cy="215" r="3"/><circle cx="146" cy="328" r="3"/><circle cx="68" cy="884" r="4"/>
+    <circle cx="132" cy="964" r="4"/><circle cx="188" cy="934" r="3"/><circle cx="972" cy="178" r="4"/>
+    <circle cx="916" cy="250" r="4"/><circle cx="860" cy="325" r="3"/><circle cx="855" cy="236" r="3"/>
+    <circle cx="966" cy="852" r="4"/><circle cx="900" cy="938" r="4"/><circle cx="844" cy="914" r="3"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="512" y="254" font-size="146" fill="#f8fbff" letter-spacing="-5">Prompt</text>
+    <text x="512" y="366" font-size="116" fill="url(#cyan)" letter-spacing="-3">em Pauta</text>
+  </g>
+  <g fill="none" stroke="url(#cyan)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 574 H160 L174 558 L188 590 L202 534 L216 615 L230 548 L244 588 L258 562 L272 574 H372" stroke-width="2.2" opacity=".85"/>
+    <path d="M652 574 H730 L746 548 L760 604 L774 536 L788 620 L802 555 L816 588 L830 566 L846 574 H982" stroke-width="2.2" opacity=".85"/>
+    <path d="M60 614 C145 557 212 677 296 616 S444 575 512 614 S675 671 755 610 S906 575 976 620" stroke-width="2" opacity=".52"/>
+    <path d="M60 634 C145 691 212 575 296 634 S444 674 512 634 S675 575 755 634 S906 671 976 630" stroke-width="1.5" opacity=".45"/>
+  </g>
+  <g fill="none" stroke="url(#cyan)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M570 520 H624 L650 494 H706 L724 476 H770"/>
+    <path d="M570 546 H638 L660 528 H718 L738 508 H784"/>
+    <path d="M568 686 H620 L644 710 H704 L725 732 H772"/>
+    <path d="M568 710 H608 L630 735 H680 L704 758 H750"/>
+  </g>
+  <g fill="#8deeff">
+    <circle cx="770" cy="476" r="5"/><circle cx="784" cy="508" r="4"/><circle cx="772" cy="732" r="5"/><circle cx="750" cy="758" r="4"/>
+    <circle cx="624" cy="520" r="4"/><circle cx="638" cy="546" r="4"/><circle cx="620" cy="686" r="4"/><circle cx="608" cy="710" r="4"/>
+  </g>
+  <ellipse cx="512" cy="850" rx="150" ry="25" fill="#16c9ff" opacity=".2" filter="url(#softGlow)"/>
+  <g>
+    <rect x="442" y="442" width="140" height="228" rx="70" fill="url(#micHead)" stroke="url(#cyan)" stroke-width="5"/>
+    <rect x="454" y="454" width="116" height="204" rx="58" fill="url(#grille)" opacity=".88"/>
+    <path d="M442 535 Q442 670 512 670 Q582 670 582 535" fill="none" stroke="url(#cyan)" stroke-width="4" opacity=".7"/>
+    <rect x="421" y="610" width="182" height="47" rx="12" fill="url(#micBody)" stroke="#4bdff7" stroke-width="2"/>
+    <circle cx="512" cy="633" r="8" fill="#9bf7ff"/>
+    <path d="M405 628 H421 V648 H405 Z M603 628 H619 V648 H603 Z" fill="url(#micBody)" stroke="#45d8f4" stroke-width="2"/>
+    <path d="M427 659 V686 C427 736 465 771 512 771 C559 771 597 736 597 686 V659" fill="none" stroke="url(#micBody)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M427 659 V686 C427 736 465 771 512 771 C559 771 597 736 597 686 V659" fill="none" stroke="url(#cyan)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="512" cy="710" r="23" fill="#061a39" stroke="url(#cyan)" stroke-width="6"/>
+    <circle cx="512" cy="710" r="10" fill="#52e5fa"/>
+    <path d="M512 771 V842" stroke="url(#micBody)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M512 775 V841" stroke="url(#cyan)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M458 845 Q458 826 477 826 H547 Q566 826 566 845 V854 H458 Z" fill="url(#micBody)" stroke="#5bdff6" stroke-width="2"/>
+    <path d="M430 854 H584 Q601 854 601 869 V878 H413 V869 Q413 854 430 854 Z" fill="url(#micBody)" stroke="url(#cyan)" stroke-width="2.5"/>
+  </g>
+  <g fill="none" stroke="#4c9fda" stroke-width="1.5" opacity=".55">
+    <path d="M332 478 V530 H382 M344 462 V514 H382 M356 446 V498 H382"/>
+    <path d="M642 774 V812 H688 V834 H728 M660 758 V798 H706 V820 H746"/>
+  </g>
+  <g fill="#70e9ff">
+    <circle cx="382" cy="530" r="3"/><circle cx="382" cy="514" r="3"/><circle cx="382" cy="498" r="3"/>
+    <circle cx="728" cy="834" r="3"/><circle cx="746" cy="820" r="3"/>
+  </g>
+</svg>
