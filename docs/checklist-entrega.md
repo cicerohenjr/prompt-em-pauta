@@ -8,7 +8,7 @@
 - [x] MP3 gerado e exportado localmente com o nome `episodio-01-prompt-em-pauta.mp3`.
 - [x] Duração, codec, bitrate, taxa de amostragem, canais e nível de pico conferidos automaticamente.
 - [ ] Ouvir o MP3 integralmente e confirmar pronúncia, ritmo e cortes.
-- [ ] Se a qualidade da voz não for suficiente, gerar uma versão mais natural e substituir o MP3.
+- [ ] Confirmar se a voz eSpeak está clara o suficiente; caso contrário, gerar a narração com TTS neural mais natural.
 - [ ] Adicionar o MP3 ao repositório GitHub.
 - [ ] Adicionar a capa PNG ao repositório, se desejado ou solicitado.
 
