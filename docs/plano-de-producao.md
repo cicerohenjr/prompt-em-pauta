@@ -19,8 +19,8 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 
 1. **Planejamento e roteiro:** primeira versão concluída; revisar antes de entregar.
 2. **Capa:** SVG está no repositório. O PNG de 1024 × 1024 está no pacote local e pode ser enviado ao GitHub.
-3. **Narração:** MP3 gerado localmente com eSpeak, voz `pt-br`, velocidade 145, pitch 48 e amplitude 175.
-4. **Pós-processamento:** normalização e compressão dinâmica leve; exportação em MP3 mono, 44,1 kHz, 128 kbps.
+3. **Narração:** MP3 refeito localmente com eSpeak `pt-br`, em uma única passagem contínua, velocidade 135.
+4. **Pós-processamento:** filtro leve de frequências e normalização; exportação em MP3 mono, 44,1 kHz/160 kbps.
 5. **Verificação técnica:** codec, duração, taxa de amostragem, canais, bitrate e nível de pico conferidos automaticamente.
 6. **Verificação humana:** ouvir o áudio completo, conferir pronúncia, ritmo e possíveis artefatos.
 7. **Publicação e entrega:** adicionar o MP3 ao diretório `output/` e, se necessário, a capa PNG ao GitHub; conferir links e enviar o link do repositório à DIO.
@@ -47,4 +47,4 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 
 ## 6. Transparência
 
-O MP3 gerado localmente usa eSpeak, uma voz sintética básica que pode soar robótica. A página pública do desafio cita ElevenLabs como ferramenta sugerida para uma voz mais humanizada. Se outra voz for gerada, registre a ferramenta e os parâmetros reais, substitua o arquivo e repita a verificação.
+O MP3 atual usa eSpeak, uma voz sintética básica que pode soar robótica. A síntese contínua e o tratamento leve foram aplicados para reduzir emendas e saturação, mas não tornam a voz equivalente a uma voz neural de leitor de navegador. A página pública do desafio cita ElevenLabs como ferramenta sugerida para uma voz mais humanizada.
