@@ -5,7 +5,7 @@
 - [x] Nome, tema e público definidos.
 - [x] Roteiro e texto de narração organizados.
 - [x] Prompts e uso das ferramentas documentados.
-- [x] Capa PNG incluída.
+- [x] Capa incluída no pacote ZIP; a versão vetorial SVG está no repositório.
 - [x] Narração gerada e exportada em MP3.
 - [x] Duração, codec, bitrate, taxa de amostragem, canais e loudness conferidos.
 - [x] Voz e modelo registrados de acordo com o arquivo exportado.
@@ -15,6 +15,7 @@
 ## GitHub
 
 - [ ] Adicionar o arquivo binário output/episodio-01-prompt-em-pauta.mp3 ao repositório.
+- [ ] Adicionar a capa PNG ao repositório caso a entrega exija também a versão raster.
 - [ ] Confirmar que a capa PNG está acessível publicamente.
 - [ ] Confirmar que o MP3 pode ser aberto ou baixado no GitHub.
 
