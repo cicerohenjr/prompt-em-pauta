@@ -1,30 +1,31 @@
 # Áudio final — Episódio 01
 
-**Arquivo esperado:** `episodio-01-prompt-em-pauta.mp3`  
-**Duração do MP3 gerado localmente:** aproximadamente 4 minutos e 43 segundos  
-**Formato:** MP3, mono, 44,1 kHz, 160 kbps  
-**Voz:** eSpeak `pt-br` (voz sintética básica)  
-**Status:** este arquivo continua sendo a versão eSpeak. O projeto agora contém um script para gerar uma versão candidata com ElevenLabs em `episodio-01-prompt-em-pauta-elevenlabs.mp3`, mas a geração neural ainda depende das credenciais da conta e do ID da voz. Escuta humana final e envio ao GitHub continuam pendentes.
+**Arquivo:** episodio-01-prompt-em-pauta.mp3  
+**Duração:** aproximadamente 3 minutos e 25 segundos  
+**Formato:** MP3, mono, 44,1 kHz, 192 kbps  
+**Voz:** Davi Andrei  
+**Modelo:** Eleven v4, no ElevenLabs Studio  
+**Pós-processamento:** normalização de loudness com FFmpeg  
+**Atribuição:** ElevenLabs — https://elevenlabs.io
 
-## Como o áudio foi produzido
+## Tratamento aplicado
 
-A narração foi sintetizada em uma única passagem com eSpeak `pt-br`, velocidade 135, pitch 48 e amplitude 90. O tratamento leve de frequências e a normalização foram aplicados no FFmpeg. O arquivo foi exportado em MP3 mono a 44,1 kHz e 160 kbps.
+- Normalização para alvo próximo de −19 LUFS.
+- Pico verdadeiro alvo de −1,5 dBTP para manter margem contra clipping.
+- Metadados preenchidos com o título do episódio e o nome do podcast.
 
 ## Conferência técnica
 
-- [x] O arquivo MP3 foi gerado.
-- [x] O codec foi identificado como MP3.
-- [x] A duração foi conferida: aproximadamente 4:43.
-- [x] A taxa de amostragem foi conferida: 44,1 kHz.
-- [x] O áudio é mono e tem bitrate de 160 kbps.
-- [x] O nível de áudio foi analisado automaticamente; o pico medido ficou em aproximadamente -2,4 dBFS.
-- [ ] Ouvir o MP3 integralmente em um reprodutor para verificar pronúncia, ritmo e possíveis artefatos.
-- [ ] Adicionar o arquivo `output/episodio-01-prompt-em-pauta.mp3` ao GitHub.
+- [x] Codec MP3 confirmado.
+- [x] Duração de aproximadamente 3:25 confirmada.
+- [x] Taxa de amostragem de 44,1 kHz confirmada.
+- [x] Áudio mono e bitrate de 192 kbps confirmados.
+- [x] Loudness final medido próximo de −19,4 LUFS.
+- [x] Pico verdadeiro medido próximo de −1,7 dBTP, sem clipping.
+- [x] Arquivo percorrido em segmentos ao longo da duração; não foram identificados cortes abruptos evidentes.
 
-## Próxima versão com ElevenLabs
+## Transparência
 
-Consulte [`../docs/elevenlabs.md`](../docs/elevenlabs.md) para configurar e gerar a narração com The Professional Instructor em português brasileiro. A versão candidata é gravada com outro nome para preservar o MP3 eSpeak até que a nova voz seja ouvida e aprovada.
+Esta versão usa Davi Andrei + Eleven v4. O planejamento inicial mencionava The Professional Instructor, mas essa voz não foi usada no arquivo exportado. A avaliação técnica detalhada está em docs/avaliacao-audio.md.
 
-## Observação importante
-
-A síntese contínua e o tratamento leve foram aplicados para reduzir a possibilidade de emendas e saturação, mas não transformam eSpeak em uma voz neural natural. A voz ainda pode soar robótica. Para se aproximar de leitores modernos de navegador, é necessário usar um serviço TTS neural, como ElevenLabs ou outro equivalente. Não declare que este áudio foi produzido com ElevenLabs: esta versão continua usando eSpeak.
+O pacote ZIP de entrega contém o MP3 atualizado. O arquivo binário ainda precisa ser adicionado a este repositório para ficar disponível no caminho acima.
