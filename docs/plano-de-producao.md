@@ -12,13 +12,14 @@
 ## Etapas e estado atual
 
 1. Roteiro: organizado; roteiro e texto da narração incluídos.
-2. Capa: PNG incluída.
+2. Capa: PNG incluída no pacote ZIP e SVG publicada no repositório.
 3. Narração: gerada no ElevenLabs Studio com Davi Andrei, modelo Eleven v4.
 4. Pós-processamento: normalização com FFmpeg para alvo de −19 LUFS e pico verdadeiro alvo de −1,5 dBTP; metadados atualizados.
 5. Verificação técnica: aproximadamente 3:25, mono, 44,1 kHz e 192 kbps.
 6. Revisão auditiva: arquivo percorrido em segmentos; não foram identificados cortes abruptos evidentes. A confirmação da pronúncia pelo autor é recomendada.
 7. Pacote: MP3, capa, roteiro, prompts e documentação organizados no ZIP.
-8. Publicação: adicionar o MP3 binário ao repositório GitHub e enviar o link do repositório à DIO.
+8. Publicação: MP3 publicado no repositório GitHub público; o link está no README principal.
+9. Entrega: enviar o link do repositório à DIO e confirmar o envio na plataforma.
 
 ## Critérios de qualidade
 
