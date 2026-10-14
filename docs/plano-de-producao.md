@@ -2,7 +2,7 @@
 
 ## 1. Escopo
 
-Produzir um episódio introdutório de podcast sobre o uso responsável de IA generativa no estudo de tecnologia. O projeto atende ao desafio “Criando um Podcast com IAs Generativas”, da DIO.
+Produzir um episódio introdutório de podcast sobre o uso responsável de IA generativa no estudo de tecnologia, para o desafio “Criando um Podcast com IAs Generativas”, da DIO.
 
 ## 2. Definição editorial
 
@@ -15,82 +15,36 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 - **Tom:** didático, respeitoso, acessível e prático
 - **Mensagem central:** prompts claros ajudam a obter apoio mais útil, mas respostas da IA precisam de verificação e prática humana.
 
-## 3. Etapas de produção
+## 3. Etapas de produção e estado
 
-### Etapa A — Planejamento
-
-1. Definir público, objetivo e mensagem central.
-2. Selecionar um exemplo prático de Engenharia de Prompt.
-3. Preparar os prompts de planejamento e escrita.
-4. Registrar ferramentas e decisões no documento de produção.
-
-### Etapa B — Roteiro
-
-1. Criar a primeira versão do roteiro.
-2. Revisar fluidez oral, estrutura e duração.
-3. Conferir afirmações técnicas em fontes confiáveis.
-4. Fazer leitura em voz alta e ajustar frases difíceis de narrar.
-
-### Etapa C — Capa
-
-1. Gerar uma proposta visual com o Nano Banana.
-2. Conferir o título, a legibilidade em tamanho pequeno e a ausência de marcas-d'água.
-3. Remover a moldura externa da versão raster e manter uma composição quadrada.
-4. Adicionar a adaptação vetorial em capa/capa-prompt-em-pauta.svg.
-5. Se a entrega exigir especificamente PNG/JPG, adicionar também a versão raster final à pasta capa/.
-6. Registrar as ferramentas e os ajustes realizados em docs/registro-de-producao.md.
-
-### Etapa D — Narração e edição
-
-1. Gerar a narração a partir do roteiro revisado.
-2. Ouvir o áudio integralmente.
-3. Cortar silêncios excessivos, ruídos e erros de fala.
-4. Ajustar volume e transições sem prejudicar a compreensão.
-5. Exportar o áudio final como output/episodio-01-prompt-em-pauta.mp3.
-6. Ouvir novamente o arquivo exportado para confirmar que não houve falhas.
-
-### Etapa E — Publicação e entrega
-
-1. Conferir se README, roteiro, prompts, capa e áudio estão no repositório.
-2. Verificar os links relativos e a grafia dos nomes dos arquivos.
-3. Atualizar o checklist de entrega.
-4. Abrir o repositório em uma janela ou sessão sem edição para verificar a visualização pública.
-5. Enviar o link do repositório na plataforma DIO conforme as instruções do desafio.
+1. **Planejamento e roteiro:** primeira versão concluída; revisar antes de entregar.
+2. **Capa:** SVG está no repositório. O PNG de 1024 × 1024 está no pacote local e pode ser enviado ao GitHub.
+3. **Narração:** MP3 gerado localmente com eSpeak, voz `pt-br`, velocidade 145, pitch 48 e amplitude 175.
+4. **Pós-processamento:** normalização e compressão dinâmica leve; exportação em MP3 mono, 44,1 kHz, 128 kbps.
+5. **Verificação técnica:** codec, duração, taxa de amostragem, canais, bitrate e nível de pico conferidos automaticamente.
+6. **Verificação humana:** ouvir o áudio completo, conferir pronúncia, ritmo e possíveis artefatos.
+7. **Publicação e entrega:** adicionar o MP3 ao diretório `output/` e, se necessário, a capa PNG ao GitHub; conferir links e enviar o link do repositório à DIO.
 
 ## 4. Critérios de qualidade
 
-### Conteúdo
-
-- O episódio responde à pergunta anunciada no título.
+- O episódio responde ao tema anunciado no título.
 - O exemplo de prompt é concreto e compreensível.
 - O roteiro não promete resultados garantidos nem apresenta a IA como infalível.
-- As orientações técnicas são verificadas antes da gravação.
-
-### Áudio
-
-- A fala é compreensível do começo ao fim.
-- O volume é consistente.
-- Não há cortes abruptos, trechos duplicados ou ruídos que atrapalhem a compreensão.
-- A introdução e o encerramento estão completos.
-- A duração final está dentro da meta ou qualquer desvio é intencional.
-
-### Capa
-
-- O título está escrito corretamente.
-- O contraste e a composição funcionam em tamanho pequeno.
-- Não há marcas-d'água ou elementos visuais que induzam a erro.
-- O formato enviado corresponde ao que a plataforma de entrega solicita.
+- A fala é compreensível e o volume é consistente.
+- Não há cortes abruptos, trechos duplicados ou ruídos que prejudiquem a compreensão.
+- A duração final fica dentro da meta ou qualquer desvio é intencional.
+- O arquivo exportado é ouvido integralmente antes de publicar.
 
 ## 5. Organização dos arquivos
 
-- prompts/README.md — modelos de prompts e critérios de avaliação.
-- roteiro/episodio-01.md — roteiro narrado.
-- capa/capa-prompt-em-pauta.svg — adaptação vetorial da capa.
-- capa/README.md — orientações e destino da capa final.
-- output/README.md — orientações e destino do áudio final.
-- docs/registro-de-producao.md — ferramentas e etapas efetivamente realizadas.
-- docs/checklist-entrega.md — verificação final.
+- `prompts/README.md` — modelos de prompts e transparência.
+- `roteiro/episodio-01.md` — roteiro e nota sobre a narração.
+- `capa/capa-prompt-em-pauta.svg` — capa vetorial.
+- `capa/README.md` — orientações para a capa.
+- `output/README.md` — orientação e estado do áudio.
+- `docs/registro-de-producao.md` — ferramentas e etapas realmente executadas.
+- `docs/checklist-entrega.md` — verificação final.
 
-## 6. Observação de transparência
+## 6. Transparência
 
-A estrutura e o roteiro são materiais de preparação. A capa vetorial SVG está no repositório. A versão raster PNG recortada está preparada separadamente e só deve ser marcada como enviada ao GitHub depois de adicionada. O áudio final só deve ser marcado como concluído depois de produzido, revisado e adicionado.
+O MP3 gerado localmente usa eSpeak, uma voz sintética básica que pode soar robótica. A página pública do desafio cita ElevenLabs como ferramenta sugerida para uma voz mais humanizada. Se outra voz for gerada, registre a ferramenta e os parâmetros reais, substitua o arquivo e repita a verificação.
