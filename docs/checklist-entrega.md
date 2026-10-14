@@ -5,7 +5,7 @@ Use esta lista para verificar o projeto antes de enviar o link do repositório.
 ## Repositório
 
 - [x] Repositório público criado.
-- [x] README inicial substituído por uma apresentação completa do projeto.
+- [x] README atualizado com apresentação e status do projeto.
 - [x] Estrutura de pastas e documentação inicial adicionadas.
 - [ ] Confirmar que o repositório abre publicamente e que todos os links funcionam.
 
@@ -16,7 +16,8 @@ Use esta lista para verificar o projeto antes de enviar o link do repositório.
 - [x] Modelos de prompts documentados em prompts/README.md.
 - [ ] Revisar o roteiro após leitura em voz alta.
 - [ ] Conferir as informações técnicas antes da gravação.
-- [ ] Criar a capa final e salvar em capa/capa-prompt-em-pauta.png.
+- [x] Capa vetorial SVG adicionada a capa/capa-prompt-em-pauta.svg.
+- [ ] Se a entrega exigir PNG/JPG, adicionar também a versão raster recortada à pasta capa/.
 - [ ] Gerar a narração e editar o áudio.
 - [ ] Salvar o áudio final em output/episodio-01-prompt-em-pauta.mp3.
 - [ ] Ouvir o MP3 exportado do início ao fim.
@@ -36,4 +37,4 @@ Use esta lista para verificar o projeto antes de enviar o link do repositório.
 - [ ] Colar o link no campo de entrega do desafio na plataforma DIO.
 - [ ] Conferir a confirmação de envio na plataforma.
 
-**Importante:** o repositório organizado não significa que o projeto audiovisual esteja finalizado. A capa e o arquivo MP3 são entregas pendentes até que sejam produzidos e adicionados.
+**Importante:** o repositório organizado não significa que o projeto audiovisual esteja finalizado. A narração e o MP3 ainda estão pendentes; confira também o formato de imagem aceito pela entrega da DIO.
