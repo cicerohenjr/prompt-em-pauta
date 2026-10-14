@@ -10,7 +10,7 @@ Podcast educativo sobre inteligência artificial generativa aplicada aos estudos
 **Duração do MP3:** aproximadamente 3 minutos e 25 segundos  
 **Voz do arquivo atual:** Davi Andrei, modelo Eleven v4, via ElevenLabs Studio
 
-![Capa do podcast Prompt em Pauta](capa/capa-prompt-em-pauta.png)
+![Capa do podcast Prompt em Pauta](capa/capa-prompt-em-pauta.svg)
 
 O episódio mostra como formular prompts úteis para estudar tecnologia, conferir respostas e praticar de forma independente.
 
@@ -19,7 +19,7 @@ O episódio mostra como formular prompts úteis para estudar tecnologia, conferi
 - roteiro/episodio-01.md — roteiro do episódio.
 - roteiro/narracao-utilizada.txt — texto usado na narração.
 - prompts/README.md — modelos de prompts e registro de ferramentas.
-- capa/capa-prompt-em-pauta.png — capa do podcast.
+- capa/capa-prompt-em-pauta.svg — capa vetorial no repositório; a versão PNG está incluída no pacote ZIP.
 - output/episodio-01-prompt-em-pauta.mp3 — caminho previsto para o MP3 final no repositório.
 - output/README.md — especificações do áudio.
 - docs/avaliacao-audio.md — avaliação técnica do arquivo exportado.
@@ -35,6 +35,7 @@ O episódio mostra como formular prompts úteis para estudar tecnologia, conferi
 - [x] Duração, canais, taxa de amostragem, bitrate e loudness conferidos.
 - [x] Documentação do projeto atualizada.
 - [ ] Adicionar o arquivo MP3 binário ao repositório, no caminho output/episodio-01-prompt-em-pauta.mp3.
+- [ ] Adicionar a capa PNG ao repositório, se a entrega exigir a versão raster.
 - [ ] Conferir o acesso público ao MP3 e enviar o link do repositório na plataforma DIO.
 
 **Importante:** o pacote ZIP de entrega contém o MP3 atualizado. O arquivo de áudio ainda precisa ser enviado ao repositório GitHub para que o link público inclua a narração.
