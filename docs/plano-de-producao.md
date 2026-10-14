@@ -19,11 +19,12 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 
 1. **Planejamento e roteiro:** primeira versão concluída; revisar antes de entregar.
 2. **Capa:** SVG está no repositório. O PNG de 1024 × 1024 está no pacote local e pode ser enviado ao GitHub.
-3. **Narração:** MP3 refeito localmente com eSpeak `pt-br`, em uma única passagem contínua, velocidade 135.
-4. **Pós-processamento:** filtro leve de frequências e normalização; exportação em MP3 mono, 44,1 kHz/160 kbps.
-5. **Verificação técnica:** codec, duração, taxa de amostragem, canais, bitrate e nível de pico conferidos automaticamente.
-6. **Verificação humana:** ouvir o áudio completo, conferir pronúncia, ritmo e possíveis artefatos.
-7. **Publicação e entrega:** adicionar o MP3 ao diretório `output/` e, se necessário, a capa PNG ao GitHub; conferir links e enviar o link do repositório à DIO.
+3. **Narração atual:** MP3 gerado localmente com eSpeak `pt-br`, em uma única passagem contínua.
+4. **Preparação ElevenLabs:** script e guia criados para usar The Professional Instructor com texto em português brasileiro; a geração ainda depende de credenciais e do ID da voz.
+5. **Pós-processamento atual:** filtro leve de frequências e normalização; exportação em MP3 mono, 44,1 kHz/160 kbps.
+6. **Verificação técnica:** codec, duração, taxa de amostragem, canais, bitrate e nível de pico conferidos automaticamente para o MP3 atual.
+7. **Verificação humana:** ouvir o MP3 completo e, após a geração neural, comparar pronúncia, ritmo e artefatos.
+8. **Publicação e entrega:** aprovar a narração, adicionar MP3 e PNG ao GitHub, verificar links e enviar o link do repositório à DIO.
 
 ## 4. Critérios de qualidade
 
@@ -42,9 +43,11 @@ Produzir um episódio introdutório de podcast sobre o uso responsável de IA ge
 - `capa/capa-prompt-em-pauta.svg` — capa vetorial.
 - `capa/README.md` — orientações para a capa.
 - `output/README.md` — orientação e estado do áudio.
+- `docs/elevenlabs.md` — instruções para gerar a voz neural.
+- `scripts/generate_audio_elevenlabs.py` — script de geração pela API.
 - `docs/registro-de-producao.md` — ferramentas e etapas realmente executadas.
 - `docs/checklist-entrega.md` — verificação final.
 
 ## 6. Transparência
 
-O MP3 atual usa eSpeak, uma voz sintética básica que pode soar robótica. A síntese contínua e o tratamento leve foram aplicados para reduzir emendas e saturação, mas não tornam a voz equivalente a uma voz neural de leitor de navegador. A página pública do desafio cita ElevenLabs como ferramenta sugerida para uma voz mais humanizada.
+O MP3 atual ainda usa eSpeak, uma voz sintética básica. O projeto está preparado para gerar uma candidata com ElevenLabs, mas não se deve dizer que a voz neural foi usada antes de a geração ser concluída e a nova faixa ser conferida. Consulte `docs/elevenlabs.md` para as instruções.
