@@ -36,14 +36,15 @@ Este prompt é para uma ferramenta de síntese de voz que aceite instruções de
 
 - **Ferramenta:** eSpeak, síntese local de voz.
 - **Voz:** `pt-br`.
-- **Velocidade:** 145.
+- **Velocidade:** 135.
 - **Pitch:** 48.
-- **Amplitude:** 175.
-- **Pós-processamento:** normalização e compressão dinâmica leve.
-- **Exportação:** MP3 mono, 44,1 kHz, 128 kbps.
-- **Duração medida:** aproximadamente 4:45.
+- **Amplitude:** 90.
+- **Síntese:** uma única passagem contínua, para reduzir emendas entre trechos.
+- **Pós-processamento:** filtro leve de frequências e normalização de volume.
+- **Exportação:** MP3 mono, 44,1 kHz, 160 kbps; pico medido de aproximadamente -2,4 dBFS.
+- **Duração medida:** aproximadamente 4:43.
 
-Não foi utilizado ElevenLabs nesta versão. A voz eSpeak é sintética e mais robótica; se for substituída por outra ferramenta, atualize o registro.
+Não foi utilizado ElevenLabs nesta versão. A síntese contínua reduz a possibilidade de emendas e saturação, mas a voz eSpeak continua sintética e pode soar robótica. A análise automática não substitui a escuta humana. Se for substituída por outra ferramenta, atualize o registro.
 
 ## 7. Revisão final do áudio
 
