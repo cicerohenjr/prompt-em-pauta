@@ -7,7 +7,7 @@ Podcast educativo sobre inteligência artificial generativa aplicada aos estudos
 **Título:** Como usar a IA generativa para estudar tecnologia com mais eficiência  
 **Público-alvo:** estudantes e iniciantes em Tecnologia da Informação (TI).  
 **Idioma:** português brasileiro.  
-**Duração do MP3 gerado localmente:** aproximadamente 4:45.
+**Duração do MP3 gerado localmente:** aproximadamente 4:43.
 
 O episódio apresenta formas práticas de usar a IA como apoio ao estudo, explica como escrever prompts mais úteis e reforça a importância de conferir informações e praticar por conta própria.
 
@@ -28,15 +28,16 @@ O episódio apresenta formas práticas de usar a IA como apoio ao estudo, explic
 - [x] Estrutura inicial de documentação organizada.
 - [x] Roteiro e modelos de prompts documentados.
 - [x] Capa vetorial SVG no repositório.
-- [x] MP3 gerado localmente e conferido tecnicamente (aprox. 4:45; mono, 44,1 kHz, 128 kbps).
+- [x] MP3 refeito em uma única síntese contínua e conferido tecnicamente (aprox. 4:43; mono, 44,1 kHz, 160 kbps).
 - [ ] Ouvir o MP3 integralmente para conferir pronúncia, ritmo e eventuais artefatos.
+- [ ] Se a voz eSpeak continuar difícil de entender, gerar uma versão com TTS neural mais natural.
 - [ ] Adicionar o MP3 `output/episodio-01-prompt-em-pauta.mp3` ao GitHub.
 - [ ] Adicionar a capa PNG a `capa/`, se desejado ou solicitado.
 - [ ] Conferir links e enviar o link do repositório na plataforma DIO.
 
 ## Transparência sobre a voz
 
-A versão de áudio gerada localmente usa **eSpeak, voz `pt-br`**, uma voz sintética básica que pode soar mais robótica do que uma voz humanizada. Não foi utilizado ElevenLabs nesta versão. O MP3 e a capa PNG estão incluídos no pacote de entrega disponibilizado separadamente; esses arquivos binários ainda precisam ser enviados ao GitHub. A escuta humana integral é recomendada antes da entrega.
+A versão atual usa **eSpeak, voz `pt-br`**, velocidade 135 e uma única síntese contínua, com tratamento leve para reduzir emendas e saturação. O MP3 é mono, 44,1 kHz e 160 kbps, mas a voz continua básica e pode soar robótica — não equivale à voz neural de um leitor moderno de navegador. Não foi utilizado ElevenLabs. O MP3 e a capa PNG estão no pacote de entrega, mas os arquivos binários ainda precisam ser enviados ao GitHub. A escuta humana integral é necessária antes da entrega.
 
 ## Uso responsável da IA
 
