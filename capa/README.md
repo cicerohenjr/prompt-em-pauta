@@ -1,27 +1,36 @@
 # Capa do podcast
 
-A capa final do projeto deverá ser adicionada nesta pasta com o nome:
+## Capa vetorial disponível no repositório
 
-**capa-prompt-em-pauta.png**
+O repositório contém a capa vetorial:
+
+**capa-prompt-em-pauta.svg**
+
+Ela usa fundo azul-marinho em tela cheia, o título “Prompt em Pauta”, um microfone central, ondas sonoras e detalhes de circuitos digitais. O formato SVG pode ser ampliado sem perda de nitidez.
 
 ## Direção visual
 
-- Nome do podcast: Prompt em Pauta.
-- Tema do episódio: Como usar a IA generativa para estudar tecnologia com mais eficiência.
-- Estilo: tecnológico, contemporâneo, educativo e organizado.
-- Elemento visual sugerido: microfone combinado com referências sutis a diálogo, aprendizagem e inteligência artificial.
-- Prioridades: título legível em tamanho pequeno, contraste suficiente e composição sem excesso de elementos.
+- **Nome:** Prompt em Pauta.
+- **Tema do episódio:** Como usar a IA generativa para estudar tecnologia com mais eficiência.
+- **Estilo:** tecnológico, contemporâneo, educativo e organizado.
+- **Elementos:** microfone, ondas sonoras e circuitos digitais.
+- **Cores:** azul-marinho, ciano e violeta.
+- **Prioridades:** título legível em tamanho pequeno, bom contraste e composição sem excesso de elementos.
 
-## Prompt inicial para geração da imagem
+## Prompt usado como orientação visual
 
 > Crie uma capa quadrada para um podcast educativo chamado “Prompt em Pauta”, episódio “Como usar a IA generativa para estudar tecnologia com mais eficiência”. Use um estilo contemporâneo, tecnológico e limpo, com um microfone como elemento central e referências visuais discretas a diálogo, aprendizado e inteligência artificial. Mantenha alto contraste, composição organizada e aparência profissional. Use apenas “Prompt em Pauta” como texto principal, sem logotipos de marcas, sem marcas-d'água e sem texto pequeno ilegível.
 
-## Revisão antes de adicionar
+## Revisão da capa
 
-- [ ] A imagem foi realmente gerada e exportada?
-- [ ] O título está escrito corretamente?
-- [ ] O texto é legível em tamanho pequeno?
-- [ ] Não há marcas-d'água nem logotipos indevidos?
-- [ ] O arquivo está salvo como capa-prompt-em-pauta.png?
+- [x] O título “Prompt em Pauta” está escrito corretamente na versão vetorial.
+- [x] A arte ocupa o quadrado inteiro, sem moldura externa.
+- [x] O microfone e os elementos tecnológicos estão destacados.
+- [ ] Conferir a capa em tamanho de miniatura e em diferentes visualizadores.
+- [ ] Confirmar os formatos exigidos pela entrega da DIO.
 
-**Status:** a capa final ainda não foi adicionada.
+## Versão PNG recortada
+
+Também foi preparada uma versão PNG recortada em **1024 × 1024 pixels**, preservando a imagem gerada com Nano Banana. Essa versão está disponível separadamente para download, mas ainda não foi adicionada ao repositório. Se for necessário entregar exatamente a imagem raster gerada, envie o arquivo **capa-prompt-em-pauta.png** para esta pasta.
+
+**Status:** a capa vetorial SVG está no GitHub; a versão PNG recortada ainda não está commitada.
