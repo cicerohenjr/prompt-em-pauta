@@ -4,7 +4,7 @@
 The approved narration is read from roteiro/narracao-utilizada.txt.
 Credentials are read from environment variables or a local .env file.
 The script deliberately writes a separate candidate MP3 and does not overwrite
-the existing eSpeak deliverable.
+the current approved MP3 deliverable.
 """
 from __future__ import annotations
 
