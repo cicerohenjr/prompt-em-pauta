@@ -10,7 +10,7 @@
 - [x] Duração, codec, bitrate, taxa de amostragem, canais e loudness conferidos.
 - [x] Voz e modelo registrados de acordo com o arquivo exportado.
 - [x] Avaliação técnica do áudio documentada.
-- [ ] O autor confirmar a pronúncia dos termos técnicos antes de publicar.
+- [x] O autor confirmou a pronúncia dos termos técnicos no áudio final.
 
 ## GitHub
 
@@ -22,8 +22,8 @@
 
 ## Entrega
 
-- [ ] Enviar o link do repositório GitHub no campo de entrega do desafio na DIO.
-- [ ] Conferir a confirmação de envio na plataforma.
+- [x] Enviar o link do repositório GitHub no campo de entrega do desafio na DIO.
+- [x] Conferir a confirmação de envio na plataforma.
 
 **Link do repositório:** https://github.com/cicerohenjr/prompt-em-pauta
 
