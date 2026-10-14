@@ -3,8 +3,8 @@
 **Série:** Prompt em Pauta  
 **Público-alvo:** estudantes e iniciantes em TI  
 **Idioma:** português brasileiro  
-**Duração do MP3 gerado:** aproximadamente 4 minutos e 43 segundos  
-**Status:** roteiro aprovado; a versão de áudio existente usa eSpeak. O projeto está preparado para gerar uma versão candidata com ElevenLabs — The Professional Instructor, em português brasileiro; a geração neural e a escuta final continuam pendentes.
+**Duração do MP3 gerado:** aproximadamente 3 minutos e 25 segundos
+**Status:** roteiro narrado e exportado em MP3 com ElevenLabs Studio. O arquivo incluído usa Davi Andrei, modelo Eleven v4; o volume foi normalizado e a documentação registra os parâmetros reais. O planejamento inicial mencionava The Professional Instructor, mas essa voz não foi usada nesta exportação.
 
 ## Abertura
 
