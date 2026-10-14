@@ -1,52 +1,50 @@
 # Prompt em Pauta 🎙️
 
-Podcast educativo sobre inteligência artificial generativa aplicada aos estudos, à produtividade e à tecnologia. Projeto prático desenvolvido para o desafio **Criando um Podcast com IAs Generativas**, do Bootcamp Universia — Fundamentos de IA Generativa 2026 (DIO).
+Podcast educativo sobre inteligência artificial generativa aplicada aos estudos e à tecnologia. Projeto desenvolvido para o desafio **Criando um Podcast com IAs Generativas**, do Bootcamp Universia — Fundamentos de IA Generativa 2026 (DIO).
 
 ## Episódio 01
 
 **Título:** Como usar a IA generativa para estudar tecnologia com mais eficiência  
-**Público-alvo:** estudantes e iniciantes em Tecnologia da Informação (TI).  
-**Idioma:** português brasileiro.  
-**Duração do MP3 gerado localmente:** aproximadamente 4:43.
+**Público:** estudantes e iniciantes em TI  
+**Idioma:** português brasileiro  
+**Duração do MP3:** aproximadamente 3 minutos e 25 segundos  
+**Voz do arquivo atual:** Davi Andrei, modelo Eleven v4, via ElevenLabs Studio
 
-O episódio apresenta formas práticas de usar a IA como apoio ao estudo, explica como escrever prompts mais úteis e reforça a importância de conferir informações e praticar por conta própria.
+![Capa do podcast Prompt em Pauta](capa/capa-prompt-em-pauta.png)
 
-## Materiais do repositório
+O episódio mostra como formular prompts úteis para estudar tecnologia, conferir respostas e praticar de forma independente.
 
-- [Roteiro do episódio 01](roteiro/episodio-01.md)
-- [Prompts e modelos de instrução](prompts/README.md)
-- [Capa vetorial SVG](capa/capa-prompt-em-pauta.svg)
-- [Plano de produção](docs/plano-de-producao.md)
-- [Registro de produção e uso de IA](docs/registro-de-producao.md)
-- [Checklist de entrega](docs/checklist-entrega.md)
-- [Orientações da capa](capa/README.md)
-- [Orientações do áudio final](output/README.md)
-- [Configuração da nova voz ElevenLabs](docs/elevenlabs.md)
+## Arquivos do projeto
 
-## Status de entrega
+- roteiro/episodio-01.md — roteiro do episódio.
+- roteiro/narracao-utilizada.txt — texto usado na narração.
+- prompts/README.md — modelos de prompts e registro de ferramentas.
+- capa/capa-prompt-em-pauta.png — capa do podcast.
+- output/episodio-01-prompt-em-pauta.mp3 — caminho previsto para o MP3 final no repositório.
+- output/README.md — especificações do áudio.
+- docs/avaliacao-audio.md — avaliação técnica do arquivo exportado.
+- docs/plano-de-producao.md — etapas e critérios de qualidade.
+- docs/registro-de-producao.md — ferramentas realmente utilizadas.
+- docs/checklist-entrega.md — conferência para a entrega na DIO.
 
-- [x] Repositório público criado.
-- [x] Estrutura inicial de documentação organizada.
-- [x] Roteiro e modelos de prompts documentados.
-- [x] Capa vetorial SVG no repositório.
-- [x] MP3 refeito em uma única síntese contínua e conferido tecnicamente (aprox. 4:43; mono, 44,1 kHz, 160 kbps).
-- [ ] Ouvir o MP3 integralmente para conferir pronúncia, ritmo e eventuais artefatos.
-- [x] Preparar o projeto para gerar uma versão com ElevenLabs usando The Professional Instructor em português brasileiro.
-- [ ] Gerar e ouvir a versão neural; a execução depende de configurar a chave de API e o ID da voz.
-- [ ] Adicionar o MP3 `output/episodio-01-prompt-em-pauta.mp3` ao GitHub.
-- [ ] Adicionar a capa PNG a `capa/`, se desejado ou solicitado.
-- [ ] Conferir links e enviar o link do repositório na plataforma DIO.
+## Estado da entrega
+
+- [x] Roteiro e texto de narração organizados.
+- [x] Capa incluída.
+- [x] Narração neural gerada e exportada em MP3.
+- [x] Duração, canais, taxa de amostragem, bitrate e loudness conferidos.
+- [x] Documentação do projeto atualizada.
+- [ ] Adicionar o arquivo MP3 binário ao repositório, no caminho output/episodio-01-prompt-em-pauta.mp3.
+- [ ] Conferir o acesso público ao MP3 e enviar o link do repositório na plataforma DIO.
+
+**Importante:** o pacote ZIP de entrega contém o MP3 atualizado. O arquivo de áudio ainda precisa ser enviado ao repositório GitHub para que o link público inclua a narração.
 
 ## Transparência sobre a voz
 
-A versão de áudio atualmente incluída continua usando **eSpeak, voz `pt-br`**; ela não foi gerada pelo ElevenLabs e ainda pode soar robótica. O projeto agora inclui um guia e um script para gerar uma versão candidata com **The Professional Instructor**, usando o modelo Eleven Multilingual v2 e o roteiro aprovado. A geração neural ainda está pendente de credenciais da conta e do ID da voz; o script não substitui automaticamente o MP3 atual. O MP3 e a capa PNG estão no pacote de entrega, mas os arquivos binários ainda precisam ser enviados ao GitHub. A escuta humana integral é necessária antes da entrega.
+O MP3 recebido para revisão usa **Davi Andrei + Eleven v4**. O planejamento inicial mencionava **The Professional Instructor**, mas essa não é a voz presente no arquivo exportado. A documentação registra essa diferença para evitar atribuir ao projeto uma voz que não foi utilizada.
 
-## Uso responsável da IA
-
-A IA é usada como ferramenta de apoio, não como substituta da aprendizagem ou da verificação humana. Confira informações técnicas em fontes confiáveis e não inclua senhas, dados pessoais ou informações confidenciais nos prompts.
+**Atribuição:** ElevenLabs — https://elevenlabs.io. Se o áudio foi gerado no plano gratuito, respeite as condições da plataforma: uso não comercial e atribuição ao publicar.
 
 ## Referência do desafio
 
-- [Criando um Podcast com IAs Generativas — DIO](https://www.dio.me/projects/criando-um-podcast-com-ias)
-
-O material de orientação do desafio recomenda manter os prompts utilizados, colocar o áudio do próprio podcast em `output/` e entregar o link do GitHub na DIO. A publicação em plataformas externas é opcional.
+https://www.dio.me/projects/criando-um-podcast-com-ias
